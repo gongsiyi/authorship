@@ -5,9 +5,9 @@ Identifying code authors is important in many research topics, and various appro
 
 In this paper, we propose new methods to combat the temporal effect problem of code authorship attribution. Since source files of code authors are accumulated in real development and attribution models need to be continuously updated with continuous data, we use chunk-based incremental learning: we treat the accumulated source files as data streams, and each incoming batch of data is treated as a chunk, we utilize an ensemble framework to maintain an ensemble of base classifiers that are incrementally trained (with no access to previous data) on incoming chunks of data, and the base classifiers are dynamically weighted according to their performance on the current data chunk, then these classifiers are combined using a dynamically weighted voting. We evaluate the effectiveness of our approach using two datasets of programs written in C++ and Java. Our evaluation shows that our incremental learning-based approach leads to significant improvements, compared to the previously published transfer learning-based approach. Our approach improves the prediction accuracy from 0.7343 to 0.9017 on the Java dataset and the prediction accuracy from 0.8016 to 0.9022 on the C++ dataset. Also, our approach maintains more consistent performance across a seven-year time period than the past approach. The results show that our approach can incrementally learn the evolving coding style of code authors over time.
 
-Here is the list of our [dataset](https://github.com/gongsiyi/identifying_codeauthors_overtime/tree/main/dataset).
+Here is the list of our [dataset](https://github.com/gongsiyi/authorship).
 
-Here is the list of our [models](https://github.com/gongsiyi/identifying_codeauthors_overtime/tree/main/models).
+Here is the list of our [models](https://github.com/gongsiyi/authorship).
 
 ## Our evaluation results
 
