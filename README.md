@@ -14,5 +14,10 @@ Here is the list of our [models](https://github.com/gongsiyi/identifying_codeaut
 The evaluation results of three research questions are as follows: 
 [cpp](https://github.com/gongsiyi/authorship/blob/main/cpp.xlsx), [java](https://github.com/gongsiyi/authorship/blob/main/java.xlsx)
 
+## Our motivating example results
+
+To illustrate how the code styles evolve over time, we calculate the code metrics of source files written by eatmore* from 2012 to 2015. The results are as follows: 
+[cpp](https://github.com/gongsiyi/authorship/blob/main/cpp.xlsx), [java](https://github.com/gongsiyi/authorship/blob/main/java.xlsx)
+
 ## Reference
 [1] Z. Li, S. Zhao, C. Chen, and Q. Chen. Reducing the impact of time evolution on source code authorship attribution via domain adaptation. ACM Transactions on Software Engineering and Methodology, 2024.
